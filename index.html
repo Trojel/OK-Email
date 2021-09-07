@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="main.css">
+
+
+
+        <div>        
+            <img src="CHMA.png" alt="">
+            <h1>Send et tilbud Frank</h1>
+    
+            <form id = "myForm" onsubmit="submit()">
+                <label for="mail:"></label>
+                <input type="text" id="mail" name="mail" placeholder="Email"><br><br>
+                <label for="navn"></label>
+                <input type="text" id="navn" name="navn" placeholder="Navn"><br><br>
+                <label for="pris"></label>
+                <input type="text" id="pris" name="pris" placeholder="Pris"><br><br>
+            </form>
+            <button id="lort" name = "lort" onclick="submit()">Send</button>
+        </div>
+
+    </body>
+</html>

@@ -13,17 +13,17 @@ function submit()
 
     pis = {
         Host : "smtp-mail.outlook.com",
-        Username : "bestyrelsen1@outlook.com",
+        Username : "mirsadBasic@outlook.dk",
         Password : "FrankHvam",
         To : document.getElementById("mail").value,
-        From : "bestyrelsen1@outlook.com",
+        From : "mirsadBasic@outlook.dk",
         Subject : "Tilbud på el-aftale fra OK",
         Body : text
     }
     Email.send(pis).then(
         message => alert(message));
     
-    location.reload()
+        //location.reload()
 }
 
 
